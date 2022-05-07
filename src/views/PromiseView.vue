@@ -12,7 +12,7 @@
         }),
 
         created() {
-            // promise의 chain을 구성하기 전
+          //  promise의 chain을 구성하기 전
             // this.wrapPromise(this.createSetTimeOutFn);
             // this.wrapPromise(this.createSetTimeOutFn);
             // this.wrapPromise(this.createSetTimeOutFn);

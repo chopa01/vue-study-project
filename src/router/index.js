@@ -8,7 +8,7 @@ import AsyncAwaitView from '../views/AsyncAwaitView.vue';
 import AxiosView from '../views/AxiosView.vue';
 import SignUpView from '../views/SignUpView.vue';
 import LoginView from '../views/LoginView.vue';
-
+import DeleteView from '../views/DeleteView.vue';
 Vue.use(VueRouter)
 
 const routes = [
@@ -52,6 +52,11 @@ const routes = [
     name: 'login',
     component : LoginView
   },
+  {
+    path:'/delete',
+    name:'delete',
+    component : DeleteView
+  }
 ]
 
 const router = new VueRouter({
