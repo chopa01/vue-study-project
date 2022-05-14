@@ -33,6 +33,7 @@
     import axios from "axios"
   // const REST_API_KEY='024714f232bb120a9fdc173e5c3064b7'
 
+
     export default {
 
         data : ()=> ({
@@ -55,8 +56,9 @@
                     console.log(repsonse);
                     this.list = repsonse.data.documents;
                 }).catch(error => {
-                 
+         
                     console.error(error);
+
                 })
  
             },
